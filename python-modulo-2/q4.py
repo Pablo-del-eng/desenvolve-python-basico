@@ -1,12 +1,15 @@
-tempo = 3
+#dados 
+horas = 3
+distancia_total = 42.195
 
-distancia = 42195
 
-velocidade_media = distancia / tempo 
+#calculo
 
-print("A velocidade media é = {velocidade_media} ")
+v_media = distancia_total / horas
+metro = distancia_total * 1000
+segundos = horas * 3600
 
-metro = distancia / 1000
-
-segundos = velocidade_media / 3600
-
+#saída 
+print (v_media)
+print (metro)
+print (segundos)

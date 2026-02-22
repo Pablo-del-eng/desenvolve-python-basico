@@ -5,7 +5,7 @@ horas_trabalhadas = 40
 # Cálculos
 salario_bruto = valor_hora * horas_trabalhadas
 desconto_inss = salario_bruto * 0.10
-desconto_sindicato = salario_bruto * 0.05
+desconto_sindicato = salario_bruto * 0.05 
 salario_liquido = salario_bruto - desconto_inss - desconto_sindicato
 
 # Saída

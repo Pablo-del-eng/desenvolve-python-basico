@@ -1,4 +1,5 @@
-real = 1 
-yuan = real * 0,69
+vinte_reais = 20
 
-vinte_reais = 20 * real * yuan
+yuan_vinte_reais =  vinte_reais * 1.69
+
+print (yuan_vinte_reais)
