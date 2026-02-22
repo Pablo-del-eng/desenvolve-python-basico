@@ -6,10 +6,14 @@ c = 3,5
 
 d = b = c 
 
-print (type (a(a)))
+print (type (a))
+print (a)
 
-print (type (b(b)))
+print (type (b))
+print (b) 
 
-print (type (c(c)))
+print (type (c))
+print (c)
 
-print (type (d(d)))
+print (type (d))
+print (d)
